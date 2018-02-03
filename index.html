@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cantarell:400i,700i">
+	<link rel="stylesheet" href="style.css">
+
+	<title>Hangman | Adam Harris</title>
+
+</head>
+
+<body>
+
+	<div id="game-container">
+
+		<div id="title">~ HANGMAN ~</div>
+
+		<div id="word-container">
+
+			<div id="reveal-word"></div>
+
+			<div id="blank-word"></div>
+
+		</div>
+
+		<div id="used-container">
+
+			<div id="used-title">~ WRONG ~</div>
+
+			<div class="divider-large"></div>
+
+			<div id="used-letters"></div>
+
+		</div>
+
+		<div id="right-container">
+
+			<div id="right-title">~ RIGHT ~</div>
+
+			<div class="divider-large"></div>
+
+			<div id="right-letters"></div>
+
+		</div>
+
+		<div id="guesses-container">
+
+			<div id="guesses-title">~ LIVES ~</div>
+
+			<div class="divider-medium"></div>
+
+			<div id="guesses-left"></div>
+
+		</div>
+
+	</div>
+
+	<div id="difficulty-page">
+
+		<div id="difficulty-title">~ SELECT YOUR DIFFICULTY ~</div>
+
+		<div id="difficulty-buttons-container">
+
+			<button id="button-easy" class="btn">EASY</button>
+
+			<button id="button-medium" class="btn">MEDIUM</button>
+
+			<button id="button-hard" class="btn">HARD</button>
+
+		</div>
+
+	</div>
+
+	<canvas id="canvas"></canvas>
+
+	<canvas id="canvas-landing"></canvas>
+
+	<script src="script.js"></script>
+
+</body>
+
+</html>
