@@ -82,6 +82,7 @@ window.onload = () => {
 		};
 
 		function makeStars() {
+			stars.length = 0;
 			let x, y, r, n, num, star;
 			for (let i = 0; i < amountOfStars; i++) {
 				num = getRandomNum(1, 10);
